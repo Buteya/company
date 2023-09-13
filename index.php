@@ -31,7 +31,7 @@ $employees = $results->fetchAll(PDO :: FETCH_ASSOC);
                 <td><?=$employee['phone']?></td>
                 <td>
                     <a href="updateemployee.php?id=<?=$employee['id'];?>">Edit</a>
-                    <a href="showemployee.php?id=<?$employee['id'];?>">Show</a>
+                    <a href="showemployee.php?id=<?=$employee['id'];?>">Show</a>
                     <a href="">Delete</a>
                 </td>
             </tr>
